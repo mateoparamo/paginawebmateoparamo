@@ -32,9 +32,30 @@ export const dict = {
     },
     projects: {
       eyebrow: "Proyectos",
-      title: "Marcas con las que he trabajado",
+      title: "Proyectos que he construido",
       subtitle:
-        "Como creador de contenido he colaborado con marcas y medios de primer nivel.",
+        "De la creación de contenido a la inteligencia artificial aplicada a los datos. Cosas que he ideado, construido y publicado.",
+      brandsLabel: "Marcas y medios",
+      items: [
+        {
+          title: "Creador de contenido",
+          tag: "Comunicación · Redes",
+          description:
+            "Comunidad de +500.000 seguidores en TikTok construida desde cero. Guion, grabación, edición y estrategia de contenido, con colaboraciones para marcas y medios de primer nivel.",
+          url: "https://portfoliomateoparamo.netlify.app/",
+          linkLabel: "Ver portfolio",
+          showBrands: true,
+        },
+        {
+          title: "Base de datos del Real Madrid",
+          tag: "IA · Datos",
+          description:
+            "Base de datos del Real Madrid desarrollada programando con inteligencia artificial, combinando los datos del club con herramientas de IA para estructurarlos y consultarlos.",
+          url: "",
+          linkLabel: "",
+          showBrands: false,
+        },
+      ],
     },
     experience: {
       eyebrow: "Experiencia",
@@ -127,9 +148,30 @@ export const dict = {
     },
     projects: {
       eyebrow: "Projects",
-      title: "Brands I've worked with",
+      title: "Projects I've built",
       subtitle:
-        "As a content creator I've collaborated with top-tier brands and media outlets.",
+        "From content creation to AI applied to data. Things I've imagined, built and shipped.",
+      brandsLabel: "Brands & media",
+      items: [
+        {
+          title: "Content creator",
+          tag: "Communication · Social",
+          description:
+            "A community of 500,000+ followers on TikTok built from scratch. Scripting, filming, editing and content strategy, with collaborations for top-tier brands and media.",
+          url: "https://portfoliomateoparamo.netlify.app/",
+          linkLabel: "View portfolio",
+          showBrands: true,
+        },
+        {
+          title: "Real Madrid database",
+          tag: "AI · Data",
+          description:
+            "A Real Madrid database developed by programming with artificial intelligence, combining the club's data with AI tools to structure and query it.",
+          url: "",
+          linkLabel: "",
+          showBrands: false,
+        },
+      ],
     },
     experience: {
       eyebrow: "Experience",

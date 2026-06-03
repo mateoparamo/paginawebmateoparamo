@@ -15,16 +15,53 @@ export function Projects({ locale }: { locale: Locale }) {
         <p className="lead mt-6 max-w-2xl text-balance">{t.subtitle}</p>
       </Reveal>
 
-      <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden border border-line bg-line md:grid-cols-3">
-        {collaborations.map((c, i) => (
-          <Reveal key={c.name} delay={(i % 3) * 0.06}>
-            <div className="flex h-full min-h-[120px] items-center justify-center bg-paper px-6 py-10 transition-colors hover:bg-paper-card md:min-h-[150px]">
-              <span className="text-center font-serif text-xl font-light text-ink md:text-2xl">
-                {c.name}
-              </span>
-            </div>
+      <div className="mt-16">
+        {t.items.map((p, i) => (
+          <Reveal key={p.title} delay={i * 0.08}>
+            <article className="group grid gap-5 border-t border-line py-10 md:grid-cols-12 md:gap-8">
+              <div className="md:col-span-4">
+                <span className="font-serif text-2xl font-light text-ink-faint">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="kicker mt-3 block">{p.tag}</span>
+              </div>
+
+              <div className="md:col-span-8">
+                <h3 className="display-md">{p.title}</h3>
+                <p className="body-text mt-4 max-w-2xl text-balance">
+                  {p.description}
+                </p>
+
+                {p.showBrands && (
+                  <div className="mt-7">
+                    <span className="meta block">{t.brandsLabel}</span>
+                    <p className="mt-2 font-sans text-sm font-light text-ink-soft">
+                      {collaborations.map((c) => c.name).join("   ·   ")}
+                    </p>
+                  </div>
+                )}
+
+                {p.url && (
+                  <a
+                    href={p.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-line mt-8"
+                  >
+                    {p.linkLabel}
+                    <span
+                      aria-hidden
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      →
+                    </span>
+                  </a>
+                )}
+              </div>
+            </article>
           </Reveal>
         ))}
+        <div className="border-t border-line" />
       </div>
     </section>
   );
