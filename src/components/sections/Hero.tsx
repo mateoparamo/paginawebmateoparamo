@@ -58,16 +58,16 @@ export function Hero({ locale }: { locale: Locale }) {
           {/* Retrato recortado, directo sobre el papel */}
           <div className="relative order-1 flex justify-center md:order-2 md:col-span-5 md:justify-end">
             <div
-              className="relative w-[80%] max-w-[330px] opacity-0 animate-fade-up md:w-full md:max-w-none"
+              className="relative w-[58%] max-w-[230px] opacity-0 animate-fade-up md:w-full md:max-w-[290px]"
               style={{ animationDelay: "0.2s" }}
             >
               <Image
                 src="/mateo-portrait.png"
                 alt="Mateo Páramo"
-                width={846}
-                height={669}
+                width={869}
+                height={721}
                 priority
-                sizes="(max-width: 768px) 80vw, 40vw"
+                sizes="(max-width: 768px) 58vw, 290px"
                 className="h-auto w-full select-none [filter:drop-shadow(0_16px_28px_rgba(26,25,22,0.12))]"
               />
             </div>
