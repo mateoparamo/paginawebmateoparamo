@@ -18,8 +18,8 @@ export function Navbar({ locale }: NavbarProps) {
 
   const links = [
     { href: `/${locale}#about`, label: t.about },
-    { href: `/${locale}#projects`, label: t.projects },
     { href: `/${locale}#experience`, label: t.experience },
+    { href: `/${locale}#projects`, label: t.projects },
     { href: `/${locale}#contact`, label: t.contact },
   ];
 

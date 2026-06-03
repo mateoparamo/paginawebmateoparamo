@@ -16,9 +16,9 @@ export default async function HomePage({
     <>
       <Hero locale={locale} />
       <About locale={locale} />
-      <Projects locale={locale} />
       <Experience locale={locale} />
       <Skills locale={locale} />
+      <Projects locale={locale} />
       <Contact locale={locale} />
     </>
   );

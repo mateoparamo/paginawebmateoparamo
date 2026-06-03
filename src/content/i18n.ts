@@ -7,7 +7,7 @@ export const dict = {
   es: {
     nav: {
       about: "Sobre mí",
-      projects: "Colaboraciones",
+      projects: "Proyectos",
       experience: "Experiencia",
       contact: "Contacto",
       cv: "Descargar CV",
@@ -17,7 +17,7 @@ export const dict = {
       title: "Mateo Páramo",
       subtitle:
         "Vengo de la comunicación y la creación de contenido, con una comunidad de +500.000 seguidores. Me he formado en Derecho (UCM) y finanzas (MBA, IEB). Hoy construyo en la intersección de los mercados financieros y la IA.",
-      ctaPrimary: "Ver colaboraciones",
+      ctaPrimary: "Ver proyectos",
       ctaSecondary: "Hablemos",
       status: "Disponible para nuevos proyectos",
     },
@@ -31,7 +31,7 @@ export const dict = {
       ],
     },
     projects: {
-      eyebrow: "Colaboraciones",
+      eyebrow: "Proyectos",
       title: "Marcas con las que he trabajado",
       subtitle:
         "Como creador de contenido he colaborado con marcas y medios de primer nivel.",
@@ -102,7 +102,7 @@ export const dict = {
   en: {
     nav: {
       about: "About",
-      projects: "Collaborations",
+      projects: "Projects",
       experience: "Experience",
       contact: "Contact",
       cv: "Download CV",
@@ -112,7 +112,7 @@ export const dict = {
       title: "Mateo Páramo",
       subtitle:
         "I come from communication and content creation, with a community of 500,000+ followers. I trained in Law (UCM) and finance (MBA, IEB). Today I build at the intersection of financial markets and AI.",
-      ctaPrimary: "See collaborations",
+      ctaPrimary: "See projects",
       ctaSecondary: "Let's talk",
       status: "Available for new projects",
     },
@@ -126,7 +126,7 @@ export const dict = {
       ],
     },
     projects: {
-      eyebrow: "Collaborations",
+      eyebrow: "Projects",
       title: "Brands I've worked with",
       subtitle:
         "As a content creator I've collaborated with top-tier brands and media outlets.",
