@@ -64,8 +64,8 @@ export function Hero({ locale }: { locale: Locale }) {
               <Image
                 src="/mateo-portrait.png"
                 alt="Mateo Páramo"
-                width={763}
-                height={594}
+                width={846}
+                height={669}
                 priority
                 sizes="(max-width: 768px) 80vw, 40vw"
                 className="h-auto w-full select-none [filter:drop-shadow(0_16px_28px_rgba(26,25,22,0.12))]"
