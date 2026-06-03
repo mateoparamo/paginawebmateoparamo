@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Locale } from "@/content/i18n";
 import { getDict } from "@/content/i18n";
 import { Reveal } from "../Reveal";
@@ -12,7 +11,7 @@ export function About({ locale }: { locale: Locale }) {
       <SectionHeading kicker={t.eyebrow} title={t.title} />
 
       <div className="mt-14 grid gap-10 md:grid-cols-12">
-        <div className="space-y-6 md:col-span-6">
+        <div className="space-y-6 md:col-span-7">
           {t.body.map((paragraph, i) => (
             <Reveal key={i} delay={i * 0.08}>
               <p className="body-text text-balance">{paragraph}</p>
@@ -20,19 +19,8 @@ export function About({ locale }: { locale: Locale }) {
           ))}
         </div>
 
-        <Reveal delay={0.12} className="md:col-span-5 md:col-start-8">
-          <div className="relative aspect-[4/5] overflow-hidden border border-line bg-paper-card">
-            <Image
-              src="/mateo.jpg"
-              alt="Mateo Páramo"
-              fill
-              sizes="(max-width: 768px) 100vw, 40vw"
-              className="object-cover object-[center_25%]"
-              priority
-            />
-          </div>
-
-          <dl className="mt-10 space-y-4">
+        <Reveal delay={0.12} className="md:col-span-4 md:col-start-9">
+          <dl className="space-y-4">
             {[
               [locale === "es" ? "Base" : "Based in", "Madrid"],
               [locale === "es" ? "Enfoque" : "Focus", locale === "es" ? "Mercados × IA" : "Markets × AI"],
