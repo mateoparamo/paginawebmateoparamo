@@ -6,25 +6,17 @@ export interface Social {
 
 export const email = "mateobernalparamo@gmail.com";
 
+// Teléfono de contacto público
+export const phone = {
+  display: "638 43 19 07",
+  tel: "tel:+34638431907",
+};
+
 export const socials: Social[] = [
   {
     name: "LinkedIn",
-    handle: "/in/mateoparamo",
-    url: "https://www.linkedin.com/in/mateoparamo/",
-  },
-  {
-    name: "X / Twitter",
-    handle: "@mateoparamo",
-    url: "https://x.com/mateoparamo",
-  },
-  {
-    name: "Instagram",
-    handle: "@mateoparamo",
-    url: "https://www.instagram.com/mateoparamo",
-  },
-  {
-    name: "YouTube",
-    handle: "@mateoparamo",
-    url: "https://www.youtube.com/@mateoparamo",
+    // TODO: sustituir por la URL real del perfil de LinkedIn de Mateo
+    handle: "Mateo Bernal Páramo",
+    url: "https://www.linkedin.com/in/mateobernalparamo",
   },
 ];

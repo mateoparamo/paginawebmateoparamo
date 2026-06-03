@@ -1,6 +1,6 @@
 import type { Locale } from "@/content/i18n";
 import { getDict } from "@/content/i18n";
-import { email, socials } from "@/content/socials";
+import { email, phone, socials } from "@/content/socials";
 import { Reveal } from "../Reveal";
 
 export function Contact({ locale }: { locale: Locale }) {
@@ -31,8 +31,13 @@ export function Contact({ locale }: { locale: Locale }) {
         </Reveal>
 
         <Reveal delay={0.12} className="md:col-span-3 md:col-start-10">
-          <p className="kicker mb-5">{t.socialsLabel}</p>
+          <p className="kicker mb-5">{t.directLabel}</p>
           <ul className="space-y-3">
+            <li>
+              <a href={phone.tel} className="link-line">
+                {phone.display}
+              </a>
+            </li>
             {socials.map((s) => (
               <li key={s.name}>
                 <a
