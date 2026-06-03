@@ -63,6 +63,7 @@ export const dict = {
           items: [
             "Derecho — UCM",
             "MBA en Finanzas — IEB",
+            "Curso de Big Data e IA — ADAMS",
             "Curso de Entrenador (RFEF)",
             "Carnet de conducir B",
           ],
@@ -157,6 +158,7 @@ export const dict = {
           items: [
             "Law — UCM",
             "MBA in Finance — IEB",
+            "Big Data & AI Course — ADAMS",
             "Football Coaching Course (RFEF)",
             "Driving licence (B)",
           ],

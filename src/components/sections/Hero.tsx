@@ -55,30 +55,20 @@ export function Hero({ locale }: { locale: Locale }) {
             </span>
           </div>
 
-          {/* Retrato recortado */}
+          {/* Retrato recortado, directo sobre el papel */}
           <div className="relative order-1 flex justify-center md:order-2 md:col-span-5 md:justify-end">
-            {/* Halo radial de fondo */}
             <div
-              aria-hidden
-              className="pointer-events-none absolute left-1/2 top-1/2 h-[24rem] w-[24rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle_at_center,rgba(26,25,22,0.06),transparent_68%)] md:h-[34rem] md:w-[34rem]"
-            />
-            <div
-              aria-hidden
-              className="pointer-events-none absolute left-1/2 top-1/2 h-[19rem] w-[19rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-line opacity-60 md:h-[27rem] md:w-[27rem]"
-            />
-
-            <div
-              className="relative w-[68%] max-w-[300px] opacity-0 animate-fade-up md:w-full md:max-w-none"
+              className="relative w-[80%] max-w-[330px] opacity-0 animate-fade-up md:w-full md:max-w-none"
               style={{ animationDelay: "0.2s" }}
             >
               <Image
-                src="/mateo-hero.png"
+                src="/mateo-portrait.png"
                 alt="Mateo Páramo"
-                width={900}
-                height={806}
+                width={763}
+                height={594}
                 priority
-                sizes="(max-width: 768px) 70vw, 38vw"
-                className="h-auto w-full select-none [filter:drop-shadow(0_22px_34px_rgba(26,25,22,0.16))] [mask-image:linear-gradient(to_bottom,black_84%,transparent_99%)] [-webkit-mask-image:linear-gradient(to_bottom,black_84%,transparent_99%)]"
+                sizes="(max-width: 768px) 80vw, 40vw"
+                className="h-auto w-full select-none [filter:drop-shadow(0_16px_28px_rgba(26,25,22,0.12))]"
               />
             </div>
           </div>
