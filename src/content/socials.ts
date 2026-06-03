@@ -15,8 +15,7 @@ export const phone = {
 export const socials: Social[] = [
   {
     name: "LinkedIn",
-    // TODO: sustituir por la URL real del perfil de LinkedIn de Mateo
-    handle: "Mateo Bernal Páramo",
-    url: "https://www.linkedin.com/in/mateobernalparamo",
+    handle: "/in/mateo-paramo",
+    url: "https://www.linkedin.com/in/mateo-paramo/",
   },
 ];
