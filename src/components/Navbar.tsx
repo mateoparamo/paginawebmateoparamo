@@ -20,7 +20,6 @@ export function Navbar({ locale }: NavbarProps) {
     { href: `/${locale}#about`, label: t.about },
     { href: `/${locale}#projects`, label: t.projects },
     { href: `/${locale}#experience`, label: t.experience },
-    { href: `/${locale}/blog`, label: t.blog },
     { href: `/${locale}#contact`, label: t.contact },
   ];
 

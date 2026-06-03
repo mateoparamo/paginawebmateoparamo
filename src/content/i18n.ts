@@ -10,7 +10,6 @@ export const dict = {
       projects: "Proyectos",
       experience: "Experiencia",
       skills: "Skills",
-      blog: "Blog",
       contact: "Contacto",
       cv: "Descargar CV",
     },
@@ -87,12 +86,6 @@ export const dict = {
       highlights: "Highlights",
       stack: "Stack",
     },
-    blog: {
-      eyebrow: "Blog",
-      title: "Notas sobre IA, mercados y producto",
-      subtitle: "Pensamiento en público. Trabajo en progreso.",
-      empty: "Pronto publicaré aquí. Mientras tanto, sígueme en las redes para no perderte nada.",
-    },
     contact: {
       eyebrow: "Contacto",
       title: "Trabajemos juntos",
@@ -117,7 +110,6 @@ export const dict = {
       projects: "Projects",
       experience: "Experience",
       skills: "Skills",
-      blog: "Blog",
       contact: "Contact",
       cv: "Download CV",
     },
@@ -193,12 +185,6 @@ export const dict = {
       backToProjects: "Back to projects",
       highlights: "Highlights",
       stack: "Stack",
-    },
-    blog: {
-      eyebrow: "Blog",
-      title: "Notes on AI, markets and product",
-      subtitle: "Thinking in public. Work in progress.",
-      empty: "I'll be posting here soon. In the meantime, follow me on socials so you don't miss it.",
     },
     contact: {
       eyebrow: "Contact",
