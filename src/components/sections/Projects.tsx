@@ -11,11 +11,7 @@ export function Projects({ locale }: { locale: Locale }) {
     <section id="projects" className="container-page scroll-mt-24 py-24 md:py-36">
       <SectionHeading kicker={t.eyebrow} title={t.title} />
 
-      <Reveal>
-        <p className="lead mt-6 max-w-2xl text-balance">{t.subtitle}</p>
-      </Reveal>
-
-      <div className="mt-16">
+      <div className="mt-14">
         {t.items.map((p, i) => (
           <Reveal key={p.title} delay={i * 0.08}>
             <article className="group grid gap-5 border-t border-line py-10 md:grid-cols-12 md:gap-8">
