@@ -16,18 +16,18 @@ export const dict = {
       eyebrow: "Finanzas × Inteligencia Artificial",
       title: "Mateo Páramo",
       subtitle:
-        "Vengo de la comunicación y la creación de contenido, con una comunidad de +500.000 seguidores. Me he formado en Derecho (UCM) y finanzas (MBA, IEB). Hoy construyo en la intersección de los mercados financieros y la IA.",
+        "De la creación de contenido —con una comunidad de +500.000 seguidores— a los mercados financieros y la inteligencia artificial. Derecho por formación, finanzas por vocación y tecnología por curiosidad.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Hablemos",
       status: "Disponible para nuevos proyectos",
     },
     about: {
       eyebrow: "Sobre mí",
-      title: "Comunicación, marcas y mercados",
+      title: "Entre el derecho, las finanzas y la IA",
       body: [
-        "Soy Mateo Páramo. Me apasiona el mundo de la comunicación, del marketing y de las marcas. Soy una persona con ambiciones, ganas de aprender y de crecer profesionalmente.",
-        "Como creador de contenido he construido una comunidad de más de 500.000 seguidores en TikTok y he colaborado con marcas y medios de primer nivel como Amazon Prime, La Liga, el Diario AS, MotoGP o Ac2ality.",
-        "En lo académico estudié Derecho en la Universidad Complutense de Madrid y completé un MBA con especialización en finanzas en el IEB. Hoy oriento esa base hacia los mercados financieros y la inteligencia artificial.",
+        "Soy Mateo Páramo, de Madrid. Curioso por naturaleza, me gusta entender cómo funcionan las cosas por dentro —un mercado, un negocio, una herramienta nueva— y no parar hasta que las piezas encajan. Aprender y construir es lo que de verdad me mueve.",
+        "Mi formación es algo poco común: estudié Derecho en la Universidad Complutense de Madrid, completé un MBA con especialización en finanzas en el IEB y me he formado en Big Data e Inteligencia Artificial en ADAMS. Esa mezcla de derecho, finanzas y tecnología es justo la que me gusta aplicar para mirar un problema desde varios ángulos.",
+        "Soy ambicioso, con iniciativa y mejor en equipo que en solitario; rara vez me conformo con la primera respuesta. Hoy me apasionan los mercados financieros y todo lo que la inteligencia artificial está cambiando en nuestra forma de trabajar, y es ahí donde quiero seguir creciendo: aprendiendo rápido y creando cosas que sirvan.",
       ],
     },
     projects: {
@@ -160,18 +160,18 @@ export const dict = {
       eyebrow: "Finance × Artificial Intelligence",
       title: "Mateo Páramo",
       subtitle:
-        "I come from communication and content creation, with a community of 500,000+ followers. I trained in Law (UCM) and finance (MBA, IEB). Today I build at the intersection of financial markets and AI.",
+        "From content creation —with a community of 500,000+ followers— to financial markets and artificial intelligence. Law by training, finance by vocation, technology by curiosity.",
       ctaPrimary: "See projects",
       ctaSecondary: "Let's talk",
       status: "Available for new projects",
     },
     about: {
       eyebrow: "About",
-      title: "Communication, brands and markets",
+      title: "Between law, finance and AI",
       body: [
-        "I'm Mateo Páramo. I'm passionate about communication, marketing and brands. I'm ambitious, eager to learn and to grow professionally.",
-        "As a content creator I've built a community of more than 500,000 followers on TikTok and collaborated with top-tier brands and media such as Amazon Prime, La Liga, Diario AS, MotoGP and Ac2ality.",
-        "Academically, I studied Law at the Complutense University of Madrid and completed an MBA specialised in finance at IEB. Today I'm channelling that foundation towards financial markets and artificial intelligence.",
+        "I'm Mateo Páramo, from Madrid. Curious by nature, I like to understand how things really work —a market, a business, a new tool— and I don't stop until the pieces fit together. Learning and building is what truly drives me.",
+        "My background is a slightly unusual one: I studied Law at the Complutense University of Madrid, completed an MBA specialised in finance at IEB and trained in Big Data and Artificial Intelligence at ADAMS. That mix of law, finance and technology is exactly what I like to bring to a problem, looking at it from several angles.",
+        "I'm ambitious, proactive and better as part of a team than on my own; I rarely settle for the first answer. Today I'm passionate about financial markets and everything artificial intelligence is changing in the way we work — and that's where I want to keep growing: learning fast and building things that are genuinely useful.",
       ],
     },
     projects: {
