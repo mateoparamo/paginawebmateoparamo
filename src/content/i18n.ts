@@ -27,7 +27,7 @@ export const dict = {
       body: [
         "Soy Mateo Páramo, de Madrid. Curioso por naturaleza, me gusta entender cómo funcionan las cosas por dentro —un mercado, un negocio, una herramienta nueva— y no parar hasta que las piezas encajan. Aprender y construir es lo que de verdad me mueve.",
         "Mi formación es algo poco común: estudié Derecho en la Universidad Complutense de Madrid, completé un MBA con especialización en finanzas en el IEB y me he formado en Big Data e Inteligencia Artificial en ADAMS. Esa mezcla de derecho, finanzas y tecnología es justo la que me gusta aplicar para mirar un problema desde varios ángulos.",
-        "Soy ambicioso, con iniciativa y mejor en equipo que en solitario; rara vez me conformo con la primera respuesta. Hoy me apasionan los mercados financieros y todo lo que la inteligencia artificial está cambiando en nuestra forma de trabajar, y es ahí donde quiero seguir creciendo: aprendiendo rápido y creando cosas que sirvan.",
+        "Soy ambicioso, con iniciativa y mejor en equipo que en solitario —algo que me viene del deporte, una de mis grandes pasiones—; rara vez me conformo con la primera respuesta. Hoy me apasionan los mercados financieros y todo lo que la inteligencia artificial está cambiando en nuestra forma de trabajar, y es ahí donde quiero seguir creciendo: aprendiendo rápido y creando cosas que sirvan.",
       ],
     },
     projects: {
@@ -171,7 +171,7 @@ export const dict = {
       body: [
         "I'm Mateo Páramo, from Madrid. Curious by nature, I like to understand how things really work —a market, a business, a new tool— and I don't stop until the pieces fit together. Learning and building is what truly drives me.",
         "My background is a slightly unusual one: I studied Law at the Complutense University of Madrid, completed an MBA specialised in finance at IEB and trained in Big Data and Artificial Intelligence at ADAMS. That mix of law, finance and technology is exactly what I like to bring to a problem, looking at it from several angles.",
-        "I'm ambitious, proactive and better as part of a team than on my own; I rarely settle for the first answer. Today I'm passionate about financial markets and everything artificial intelligence is changing in the way we work — and that's where I want to keep growing: learning fast and building things that are genuinely useful.",
+        "I'm ambitious, proactive and better as part of a team than on my own —something that comes from sport, one of my great passions—; I rarely settle for the first answer. Today I'm passionate about financial markets and everything artificial intelligence is changing in the way we work — and that's where I want to keep growing: learning fast and building things that are genuinely useful.",
       ],
     },
     projects: {
