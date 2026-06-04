@@ -13,10 +13,10 @@ export const dict = {
       cv: "Descargar CV",
     },
     hero: {
-      eyebrow: "Finanzas × Inteligencia Artificial",
+      eyebrow: "Finanzas - Inteligencia Artificial",
       title: "Mateo Páramo",
       subtitle:
-        "De la creación de contenido —con una comunidad de +500.000 seguidores— a los mercados financieros y la inteligencia artificial. Derecho por formación, finanzas por vocación y tecnología por curiosidad.",
+        "Soy Mateo: curioso por naturaleza, me gusta entender cómo funcionan las cosas y no parar hasta que encajan. Hoy, lo que de verdad me mueve son los mercados financieros y la inteligencia artificial.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Hablemos",
       status: "Disponible para nuevos proyectos",
@@ -86,7 +86,7 @@ export const dict = {
         {
           role: "Auxiliar administrativo · Encargado de cafetería",
           company: "Bristol School",
-          dates: "2019 · sept–dic 2020",
+          dates: "sept–dic 2020",
           duration: "",
         },
         {
@@ -157,10 +157,10 @@ export const dict = {
       cv: "Download CV",
     },
     hero: {
-      eyebrow: "Finance × Artificial Intelligence",
+      eyebrow: "Finance - Artificial Intelligence",
       title: "Mateo Páramo",
       subtitle:
-        "From content creation —with a community of 500,000+ followers— to financial markets and artificial intelligence. Law by training, finance by vocation, technology by curiosity.",
+        "I'm Mateo: curious by nature, I like to understand how things really work and I don't stop until the pieces fit. Today, what truly drives me are financial markets and artificial intelligence.",
       ctaPrimary: "See projects",
       ctaSecondary: "Let's talk",
       status: "Available for new projects",
@@ -230,7 +230,7 @@ export const dict = {
         {
           role: "Administrative assistant · Coffee shop manager",
           company: "Bristol School",
-          dates: "2019 · Sep–Dec 2020",
+          dates: "Sep–Dec 2020",
           duration: "",
         },
         {
