@@ -62,10 +62,10 @@ export const dict = {
       title: "Trayectoria",
       featured: {
         company: "Boston Scientific",
-        period: "abr 2024 — actualidad",
+        period: "abr 2024 — mar 2026",
         duration: "~2 años",
         roles: [
-          { role: "Finance Analyst", dates: "mar 2025 — actualidad" },
+          { role: "Finance Analyst", dates: "mar 2025 — mar 2026" },
           { role: "Finance Intern", dates: "abr 2024 — mar 2025" },
         ],
         bullets: [
@@ -206,10 +206,10 @@ export const dict = {
       title: "Career",
       featured: {
         company: "Boston Scientific",
-        period: "Apr 2024 — present",
+        period: "Apr 2024 — Mar 2026",
         duration: "~2 years",
         roles: [
-          { role: "Finance Analyst", dates: "Mar 2025 — present" },
+          { role: "Finance Analyst", dates: "Mar 2025 — Mar 2026" },
           { role: "Finance Intern", dates: "Apr 2024 — Mar 2025" },
         ],
         bullets: [
