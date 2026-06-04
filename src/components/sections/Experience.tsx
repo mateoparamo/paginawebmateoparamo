@@ -67,10 +67,7 @@ export function Experience({ locale }: { locale: Locale }) {
                 </span>
                 <span className="meta">{item.role}</span>
               </div>
-              <span className="meta whitespace-nowrap">
-                {item.dates}
-                {item.duration ? ` · ${item.duration}` : ""}
-              </span>
+              <span className="meta whitespace-nowrap">{item.dates}</span>
             </li>
           ))}
           <li className="border-t border-line" />
