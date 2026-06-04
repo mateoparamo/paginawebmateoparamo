@@ -61,18 +61,46 @@ export const dict = {
       eyebrow: "Experiencia",
       title: "Trayectoria",
       featured: {
-        role: "Creación de contenido",
-        company: "Redes sociales · TikTok +500.000 seguidores",
-        description:
-          "Producción de contenido y crecimiento de audiencia en redes, con colaboraciones para marcas y medios como Amazon Prime, La Liga, Diario AS, MotoGP o Ac2ality. Comunicación, narrativa y constancia.",
+        company: "Boston Scientific",
+        period: "abr 2024 — actualidad",
+        duration: "~2 años",
+        roles: [
+          { role: "Finance Analyst", dates: "mar 2025 — actualidad" },
+          { role: "Finance Intern", dates: "abr 2024 — mar 2025" },
+        ],
+        bullets: [
+          "Apoyo en el cierre mensual: recopilación de datos contables, conciliación de cuentas y preparación de documentación de soporte para revisión del analista sénior.",
+          "Elaboración de informes financieros periódicos (ventas, gastos operativos, P&L por línea de negocio) en Excel y PowerPoint para el equipo financiero local.",
+          "Control y revisión de facturas y gastos, verificando el cumplimiento de la política interna y la correcta imputación contable y analítica.",
+          "Colaboración con otros departamentos (ventas, logística, RR. HH.) para obtener la información necesaria en el registro de operaciones.",
+        ],
       },
       otherTitle: "Otra experiencia",
       items: [
-        { role: "Teleoperador", company: "Randstad" },
-        { role: "Encargado de sala", company: "Miga Bakery" },
-        { role: "Encargado de comedor · Auxiliar administrativo", company: "Bristol School" },
-        { role: "Monitor de ocio y tiempo libre", company: "Funny World" },
-        { role: "Monitor de ocio y tiempo libre", company: "Grupo Tucán" },
+        {
+          role: "Monitor de ocio y eventos",
+          company: "Grupo Tucán · Funny World · Workout Events",
+          dates: "2015 — 2023",
+          duration: "eventos puntuales",
+        },
+        {
+          role: "Auxiliar administrativo · Encargado de cafetería",
+          company: "Bristol School",
+          dates: "2019 · sept–dic 2020",
+          duration: "",
+        },
+        {
+          role: "Teleoperador / agente de call center",
+          company: "Randstad",
+          dates: "abr — may 2018",
+          duration: "1 mes",
+        },
+        {
+          role: "Atención al cliente, facturación e inventario",
+          company: "Miga Bakery",
+          dates: "sept 2016 — mar 2017",
+          duration: "7 meses",
+        },
       ],
     },
     skills: {
@@ -177,18 +205,46 @@ export const dict = {
       eyebrow: "Experience",
       title: "Career",
       featured: {
-        role: "Content creation",
-        company: "Social media · TikTok 500,000+ followers",
-        description:
-          "Content production and audience growth on social media, with collaborations for brands and media such as Amazon Prime, La Liga, Diario AS, MotoGP and Ac2ality. Communication, storytelling and consistency.",
+        company: "Boston Scientific",
+        period: "Apr 2024 — present",
+        duration: "~2 years",
+        roles: [
+          { role: "Finance Analyst", dates: "Mar 2025 — present" },
+          { role: "Finance Intern", dates: "Apr 2024 — Mar 2025" },
+        ],
+        bullets: [
+          "Support with the monthly close: compiling accounting data, reconciling accounts and preparing supporting documentation for the senior analyst's review.",
+          "Preparation of recurring financial reports (sales, operating expenses, P&L by business line) in Excel and PowerPoint for the local finance team.",
+          "Control and review of invoices and expenses, checking compliance with internal policy and correct accounting and analytical allocation.",
+          "Collaboration with other departments (sales, logistics, HR) to gather the information needed to record operations correctly.",
+        ],
       },
       otherTitle: "Other experience",
       items: [
-        { role: "Call centre agent", company: "Randstad" },
-        { role: "Floor manager", company: "Miga Bakery" },
-        { role: "Dining manager · Administrative assistant", company: "Bristol School" },
-        { role: "Activity & leisure monitor", company: "Funny World" },
-        { role: "Activity & leisure monitor", company: "Grupo Tucán" },
+        {
+          role: "Activity & events monitor",
+          company: "Grupo Tucán · Funny World · Workout Events",
+          dates: "2015 — 2023",
+          duration: "occasional events",
+        },
+        {
+          role: "Administrative assistant · Coffee shop manager",
+          company: "Bristol School",
+          dates: "2019 · Sep–Dec 2020",
+          duration: "",
+        },
+        {
+          role: "Call centre agent / telemarketer",
+          company: "Randstad",
+          dates: "Apr — May 2018",
+          duration: "1 month",
+        },
+        {
+          role: "Customer service, billing & inventory",
+          company: "Miga Bakery",
+          dates: "Sep 2016 — Mar 2017",
+          duration: "7 months",
+        },
       ],
     },
     skills: {
