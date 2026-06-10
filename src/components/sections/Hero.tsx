@@ -41,8 +41,8 @@ export function Hero({ locale }: { locale: Locale }) {
 
             <span className="meta mt-8 flex items-center gap-2 opacity-0 animate-fade-up" style={{ animationDelay: "0.46s" }}>
               <span className="relative flex h-1.5 w-1.5">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-ink opacity-40" />
-                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-ink" />
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
+                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
               </span>
               {t.status}
             </span>
@@ -61,7 +61,7 @@ export function Hero({ locale }: { locale: Locale }) {
                 height={806}
                 priority
                 sizes="(max-width: 768px) 58vw, 290px"
-                className="h-auto w-full select-none [filter:drop-shadow(0_16px_28px_rgba(26,25,22,0.12))] [mask-image:linear-gradient(to_bottom,black_96%,transparent_100%)]"
+                className="h-auto w-full select-none mix-blend-multiply [mask-image:linear-gradient(to_bottom,black_94%,transparent_100%)]"
               />
             </div>
           </div>

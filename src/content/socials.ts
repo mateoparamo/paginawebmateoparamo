@@ -6,12 +6,6 @@ export interface Social {
 
 export const email = "mateobernalparamo@gmail.com";
 
-// Teléfono de contacto público
-export const phone = {
-  display: "638 43 19 07",
-  tel: "tel:+34638431907",
-};
-
 export const socials: Social[] = [
   {
     name: "LinkedIn",

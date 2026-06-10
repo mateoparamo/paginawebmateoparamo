@@ -19,6 +19,12 @@ const config: Config = {
         },
         line: "rgba(26, 25, 22, 0.10)",
         "line-strong": "rgba(26, 25, 22, 0.22)",
+        // Single restrained accent — cobalt ink. Used sparingly: status dot,
+        // section numbers, link hovers and the logo-wall hover state.
+        accent: {
+          DEFAULT: "#2440d0",
+          soft: "rgba(36, 64, 208, 0.10)",
+        },
       },
       fontFamily: {
         serif: ["var(--font-newsreader)", "Georgia", "serif"],
