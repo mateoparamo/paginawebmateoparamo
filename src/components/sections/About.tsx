@@ -7,10 +7,10 @@ export function About({ locale }: { locale: Locale }) {
   const t = getDict(locale).about;
 
   return (
-    <section id="about" className="container-page scroll-mt-24 py-24 md:py-36">
-      <SectionHeading kicker={t.eyebrow} title={t.title} />
+    <section id="about" className="container-page scroll-mt-24 py-20 md:py-28">
+      <SectionHeading>{t.eyebrow}</SectionHeading>
 
-      <div className="mt-14 grid gap-10 md:grid-cols-12">
+      <div className="mt-10 grid gap-10 md:grid-cols-12">
         <div className="space-y-6 md:col-span-7">
           {t.body.map((paragraph, i) => (
             <Reveal key={i} delay={i * 0.08}>
@@ -22,10 +22,9 @@ export function About({ locale }: { locale: Locale }) {
         <Reveal delay={0.12} className="md:col-span-4 md:col-start-9">
           <dl className="space-y-4">
             {[
-              [locale === "es" ? "Base" : "Based in", "Madrid"],
+              [locale === "es" ? "Residencia" : "Based in", "Madrid"],
               [locale === "es" ? "Enfoque" : "Focus", locale === "es" ? "Mercados × IA" : "Markets × AI"],
               [locale === "es" ? "Idiomas" : "Languages", "ES · EN"],
-              [locale === "es" ? "Estado" : "Status", locale === "es" ? "Disponible" : "Available"],
             ].map(([k, v]) => (
               <div
                 key={k}

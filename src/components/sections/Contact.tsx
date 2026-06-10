@@ -2,16 +2,18 @@ import type { Locale } from "@/content/i18n";
 import { getDict } from "@/content/i18n";
 import { email, phone, socials } from "@/content/socials";
 import { Reveal } from "../Reveal";
+import { SectionHeading } from "../SectionHeading";
 
 export function Contact({ locale }: { locale: Locale }) {
   const t = getDict(locale).contact;
 
   return (
-    <section id="contact" className="container-page scroll-mt-24 py-24 md:py-40">
-      <div className="grid gap-12 md:grid-cols-12">
+    <section id="contact" className="container-page scroll-mt-24 py-20 md:py-32">
+      <SectionHeading>{t.eyebrow}</SectionHeading>
+
+      <div className="mt-10 grid gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-8">
-          <span className="kicker">{t.eyebrow}</span>
-          <h2 className="display-lg mt-5 max-w-2xl text-balance">{t.title}</h2>
+          <h3 className="display-lg max-w-2xl text-balance">{t.title}</h3>
           <p className="lead mt-8 max-w-xl text-balance">{t.subtitle}</p>
 
           <a

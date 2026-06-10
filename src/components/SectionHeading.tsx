@@ -1,15 +1,11 @@
 import { Reveal } from "./Reveal";
 
-interface SectionHeadingProps {
-  kicker: string;
-  title: string;
-}
-
-export function SectionHeading({ kicker, title }: SectionHeadingProps) {
+export function SectionHeading({ children }: { children: string }) {
   return (
     <Reveal>
-      <span className="kicker">{kicker}</span>
-      <h2 className="display-lg mt-5 max-w-3xl text-balance">{title}</h2>
+      <h2 className="kicker text-base font-bold text-ink md:text-lg">
+        {children}
+      </h2>
     </Reveal>
   );
 }

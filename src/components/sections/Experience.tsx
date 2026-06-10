@@ -8,8 +8,8 @@ export function Experience({ locale }: { locale: Locale }) {
   const f = t.featured;
 
   return (
-    <section id="experience" className="container-page scroll-mt-24 py-24 md:py-36">
-      <SectionHeading kicker={t.eyebrow} title={t.title} />
+    <section id="experience" className="container-page scroll-mt-24 py-20 md:py-28">
+      <SectionHeading>{t.eyebrow}</SectionHeading>
 
       {/* Experiencia destacada: Boston Scientific */}
       <Reveal>
@@ -37,17 +37,39 @@ export function Experience({ locale }: { locale: Locale }) {
               ))}
             </ul>
 
-            <ul className="mt-6 space-y-3">
-              {f.bullets.map((b, i) => (
-                <li key={i} className="body-text flex gap-3 text-balance">
-                  <span
-                    aria-hidden
-                    className="mt-[0.7em] h-px w-4 shrink-0 bg-line-strong"
+            <details className="group mt-6">
+              <summary className="flex cursor-pointer list-none items-center gap-1.5 font-sans text-[10px] font-normal uppercase tracking-[0.18em] text-ink-muted transition-colors hover:text-ink-soft [&::-webkit-details-marker]:hidden">
+                <span>{f.bulletsLabel}</span>
+                <svg
+                  aria-hidden
+                  viewBox="0 0 12 12"
+                  className="h-2 w-2 transition-transform duration-300 group-open:rotate-180"
+                >
+                  <path
+                    d="M2 4l4 4 4-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
-                  <span>{b}</span>
-                </li>
-              ))}
-            </ul>
+                </svg>
+              </summary>
+              <ul className="mt-6 space-y-3">
+                {f.bullets.map((b, i) => (
+                  <li
+                    key={i}
+                    className="flex gap-3 text-balance font-sans text-sm font-light leading-relaxed text-ink-muted"
+                  >
+                    <span
+                      aria-hidden
+                      className="mt-[0.7em] h-px w-4 shrink-0 bg-line-strong"
+                    />
+                    <span>{b}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
           </div>
         </article>
       </Reveal>

@@ -9,7 +9,7 @@ export function Hero({ locale }: { locale: Locale }) {
   return (
     <section className="relative overflow-hidden">
       <div className="container-page relative">
-        <div className="grid min-h-[88vh] grid-cols-1 items-center gap-y-4 py-16 md:grid-cols-12 md:gap-x-6 md:py-20">
+        <div className="grid min-h-[76vh] grid-cols-1 items-center gap-y-4 py-16 md:grid-cols-12 md:gap-x-6 md:py-20">
           {/* Texto */}
           <div className="order-2 md:order-1 md:col-span-7 md:pr-4">
             <span
@@ -20,18 +20,11 @@ export function Hero({ locale }: { locale: Locale }) {
             </span>
 
             <h1
-              className="display-xl mt-6 opacity-0 animate-fade-up"
+              className="display-xl mt-6 max-w-xl text-balance opacity-0 animate-fade-up md:max-w-2xl"
               style={{ animationDelay: "0.12s" }}
             >
               {t.title}
             </h1>
-
-            <p
-              className="lead mt-7 max-w-xl text-balance opacity-0 animate-fade-up"
-              style={{ animationDelay: "0.24s" }}
-            >
-              {t.subtitle}
-            </p>
 
             <div
               className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 opacity-0 animate-fade-up"
@@ -64,11 +57,11 @@ export function Hero({ locale }: { locale: Locale }) {
               <Image
                 src="/mateo-portrait.png"
                 alt="Mateo Páramo"
-                width={869}
-                height={721}
+                width={900}
+                height={806}
                 priority
                 sizes="(max-width: 768px) 58vw, 290px"
-                className="h-auto w-full select-none [filter:drop-shadow(0_16px_28px_rgba(26,25,22,0.12))]"
+                className="h-auto w-full select-none [filter:drop-shadow(0_16px_28px_rgba(26,25,22,0.12))] [mask-image:linear-gradient(to_bottom,black_96%,transparent_100%)]"
               />
             </div>
           </div>

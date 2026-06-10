@@ -24,7 +24,8 @@ export function Navbar({ locale }: NavbarProps) {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-paper/80 backdrop-blur-md">
+    <>
+      <header className="sticky top-0 z-50 bg-paper/80 backdrop-blur-md">
       <div className="container-page flex h-20 items-center justify-between">
         <Link
           href={`/${locale}`}
@@ -60,6 +61,7 @@ export function Navbar({ locale }: NavbarProps) {
             onClick={() => setOpen((v) => !v)}
             className="md:hidden text-ink"
             aria-label="Menu"
+            aria-expanded={open}
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               {open ? <path d="M6 6l12 12M6 18L18 6" /> : <path d="M4 8h16M4 16h16" />}
@@ -68,31 +70,43 @@ export function Navbar({ locale }: NavbarProps) {
         </div>
       </div>
 
-      {open && (
-        <div className="bg-paper md:hidden">
-          <nav className="container-page flex flex-col gap-1 pb-6">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="py-2.5 font-sans text-sm font-light text-ink-soft"
-              >
-                {link.label}
-              </Link>
-            ))}
-            <a
-              href="/cv.pdf"
-              download="CV-Mateo-Paramo.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="py-2.5 font-sans text-sm font-medium text-ink"
+      </header>
+
+      {/* Menú móvil: panel lateral sobre la página, entra desde la derecha */}
+      <div
+        onClick={() => setOpen(false)}
+        aria-hidden
+        className={`fixed inset-0 z-30 bg-ink/15 transition-opacity duration-300 md:hidden ${
+          open ? "opacity-100" : "pointer-events-none opacity-0"
+        }`}
+      />
+      <div
+        className={`fixed inset-y-0 right-0 z-40 w-72 max-w-[82vw] border-l border-line bg-paper transition-transform duration-300 ease-out md:hidden ${
+          open ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <nav className="flex flex-col gap-1 px-8 pt-28">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              className="py-2.5 font-sans text-sm font-light text-ink-soft"
             >
-              {t.cv}
-            </a>
-          </nav>
-        </div>
-      )}
-    </header>
+              {link.label}
+            </Link>
+          ))}
+          <a
+            href="/cv.pdf"
+            download="CV-Mateo-Paramo.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-2.5 font-sans text-sm font-medium text-ink"
+          >
+            {t.cv}
+          </a>
+        </nav>
+      </div>
+    </>
   );
 }

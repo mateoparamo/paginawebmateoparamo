@@ -13,21 +13,18 @@ export const dict = {
       cv: "Descargar CV",
     },
     hero: {
-      eyebrow: "Finanzas - Inteligencia Artificial",
-      title: "Mateo Páramo",
-      subtitle:
-        "Soy Mateo: curioso por naturaleza, me gusta entender cómo funcionan las cosas y no parar hasta que encajan. Hoy, lo que de verdad me mueve son los mercados financieros y la inteligencia artificial.",
+      eyebrow: "Mateo Páramo · Madrid",
+      title: "Finanzas, datos e IA aplicados a problemas reales",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Hablemos",
       status: "Disponible para nuevos proyectos",
     },
     about: {
       eyebrow: "Sobre mí",
-      title: "Entre el derecho, las finanzas y la IA",
+      title: "Curioso, inquieto y autodidacta",
       body: [
-        "Soy Mateo Páramo, de Madrid. Curioso por naturaleza, me gusta entender cómo funcionan las cosas por dentro —un mercado, un negocio, una herramienta nueva— y no parar hasta que las piezas encajan. Aprender y construir es lo que de verdad me mueve.",
-        "Mi formación es algo poco común: estudié Derecho en la Universidad Complutense de Madrid, completé un MBA con especialización en finanzas en el IEB y me he formado en Big Data e Inteligencia Artificial en ADAMS. Esa mezcla de derecho, finanzas y tecnología es justo la que me gusta aplicar para mirar un problema desde varios ángulos.",
-        "Soy ambicioso, con iniciativa y mejor en equipo que en solitario —algo que me viene del deporte, una de mis grandes pasiones—; rara vez me conformo con la primera respuesta. Hoy me apasionan los mercados financieros y todo lo que la inteligencia artificial está cambiando en nuestra forma de trabajar, y es ahí donde quiero seguir creciendo: aprendiendo rápido y creando cosas que sirvan.",
+        "Mi primera buena decisión profesional fue admitir que me había equivocado de carrera. Estudié Derecho en la UCM y descubrí que lo mío eran las finanzas, por lo que opté por hacer un MBA con especialización en finanzas en el IEB. Hoy en día, con el auge de la inteligencia artificial, se junta todo lo que me apasiona: IA y finanzas.",
+        "Tengo 29 años, soy de Madrid y llevo toda la vida detrás de un balón. Tras 2 años en Boston Scientific busco crecer como analista, aplicando la IA en las empresas y las finanzas. Siempre con ganas de aprender, mejorar y aportar.",
       ],
     },
     projects: {
@@ -41,7 +38,7 @@ export const dict = {
           title: "Creador de contenido",
           tag: "Comunicación · Redes",
           description:
-            "Comunidad de +500.000 seguidores en TikTok construida desde cero. Guion, grabación, edición y estrategia de contenido, con colaboraciones para marcas y medios de primer nivel.",
+            "Comunidad de +500.000 seguidores en Redes Sociales construida desde cero.",
           url: "https://portfoliomateoparamo.netlify.app/",
           linkLabel: "Ver portfolio",
           showBrands: true,
@@ -50,7 +47,7 @@ export const dict = {
           title: "Base de datos del Real Madrid",
           tag: "IA · Datos",
           description:
-            "Aplicación web de estadísticas del Real Madrid programada con inteligencia artificial. Reúne datos de la plantilla, competiciones y partidos con buscador, tablas, mapas de tiro, métricas avanzadas (xG, xA) y comparador de jugadores.",
+            "Aplicación web de estadísticas y datos del Real Madrid programada con vibe coding.",
           url: "https://data-base-real-madrid-stats.pages.dev/real-madrid-premium-v5?vmpyn9tsz",
           linkLabel: "Ver proyecto",
           showBrands: false,
@@ -68,6 +65,7 @@ export const dict = {
           { role: "Finance Analyst", dates: "mar 2025 — mar 2026" },
           { role: "Finance Intern", dates: "abr 2024 — mar 2025" },
         ],
+        bulletsLabel: "Funciones",
         bullets: [
           "Apoyo en el cierre mensual: recopilación de datos contables, conciliación de cuentas y preparación de documentación de soporte para revisión del analista sénior.",
           "Elaboración de informes financieros periódicos (ventas, gastos operativos, P&L por línea de negocio) en Excel y PowerPoint para el equipo financiero local.",
@@ -113,8 +111,6 @@ export const dict = {
             "Derecho — UCM",
             "MBA en Finanzas — IEB",
             "Curso de Big Data e IA — ADAMS",
-            "Curso de Entrenador (RFEF)",
-            "Carnet de conducir B",
           ],
         },
         {
@@ -132,13 +128,17 @@ export const dict = {
           name: "Idiomas",
           items: ["Castellano — Nativo", "Inglés — Nivel medio-alto"],
         },
+        {
+          name: "Información adicional",
+          items: ["Curso de Entrenador (RFEF)", "Carnet de conducir B"],
+        },
       ],
     },
     contact: {
       eyebrow: "Contacto",
       title: "Trabajemos juntos",
       subtitle:
-        "Si quieres hablar de un proyecto, una oportunidad o simplemente cambiar impresiones sobre comunicación, marcas, finanzas o IA, escríbeme.",
+        "Si quieres hablar de un proyecto, una oportunidad o simplemente cambiar impresiones, escríbeme.",
       directLabel: "Contacto directo",
       phoneLabel: "Teléfono",
       socialsLabel: "Conecta por aquí",
@@ -157,21 +157,18 @@ export const dict = {
       cv: "Download CV",
     },
     hero: {
-      eyebrow: "Finance - Artificial Intelligence",
-      title: "Mateo Páramo",
-      subtitle:
-        "I'm Mateo: curious by nature, I like to understand how things really work and I don't stop until the pieces fit. Today, what truly drives me are financial markets and artificial intelligence.",
+      eyebrow: "Mateo Páramo · Madrid",
+      title: "Finance, data & AI applied to real problems",
       ctaPrimary: "See projects",
       ctaSecondary: "Let's talk",
       status: "Available for new projects",
     },
     about: {
       eyebrow: "About",
-      title: "Between law, finance and AI",
+      title: "Curious, restless and self-taught",
       body: [
-        "I'm Mateo Páramo, from Madrid. Curious by nature, I like to understand how things really work —a market, a business, a new tool— and I don't stop until the pieces fit together. Learning and building is what truly drives me.",
-        "My background is a slightly unusual one: I studied Law at the Complutense University of Madrid, completed an MBA specialised in finance at IEB and trained in Big Data and Artificial Intelligence at ADAMS. That mix of law, finance and technology is exactly what I like to bring to a problem, looking at it from several angles.",
-        "I'm ambitious, proactive and better as part of a team than on my own —something that comes from sport, one of my great passions—; I rarely settle for the first answer. Today I'm passionate about financial markets and everything artificial intelligence is changing in the way we work — and that's where I want to keep growing: learning fast and building things that are genuinely useful.",
+        "My first good career decision was admitting I'd picked the wrong degree. I studied Law at UCM and discovered finance was what really drew me in, so I chose to do an MBA specialising in finance at IEB. Today, with the rise of artificial intelligence, everything I'm passionate about comes together: AI and finance.",
+        "I'm 29, from Madrid, and I've spent my whole life chasing a football. After 2 years at Boston Scientific, I want to keep growing as an analyst, applying AI to business and finance. Always eager to learn, improve and add value.",
       ],
     },
     projects: {
@@ -185,7 +182,7 @@ export const dict = {
           title: "Content creator",
           tag: "Communication · Social",
           description:
-            "A community of 500,000+ followers on TikTok built from scratch. Scripting, filming, editing and content strategy, with collaborations for top-tier brands and media.",
+            "A community of 500,000+ followers on Social Media built from scratch.",
           url: "https://portfoliomateoparamo.netlify.app/",
           linkLabel: "View portfolio",
           showBrands: true,
@@ -194,7 +191,7 @@ export const dict = {
           title: "Real Madrid database",
           tag: "AI · Data",
           description:
-            "A Real Madrid stats web app built by programming with artificial intelligence. It brings together squad, competition and match data with search, tables, shot maps, advanced metrics (xG, xA) and a player comparison tool.",
+            "A Real Madrid stats and data web app built with vibe coding.",
           url: "https://data-base-real-madrid-stats.pages.dev/real-madrid-premium-v5?vmpyn9tsz",
           linkLabel: "View project",
           showBrands: false,
@@ -212,6 +209,7 @@ export const dict = {
           { role: "Finance Analyst", dates: "Mar 2025 — Mar 2026" },
           { role: "Finance Intern", dates: "Apr 2024 — Mar 2025" },
         ],
+        bulletsLabel: "Duties",
         bullets: [
           "Support with the monthly close: compiling accounting data, reconciling accounts and preparing supporting documentation for the senior analyst's review.",
           "Preparation of recurring financial reports (sales, operating expenses, P&L by business line) in Excel and PowerPoint for the local finance team.",
@@ -257,8 +255,6 @@ export const dict = {
             "Law — UCM",
             "MBA in Finance — IEB",
             "Big Data & AI Course — ADAMS",
-            "Football Coaching Course (RFEF)",
-            "Driving licence (B)",
           ],
         },
         {
@@ -276,13 +272,17 @@ export const dict = {
           name: "Languages",
           items: ["Spanish — Native", "English — Upper-intermediate"],
         },
+        {
+          name: "Additional information",
+          items: ["Football Coaching Course (RFEF)", "Driving licence (B)"],
+        },
       ],
     },
     contact: {
       eyebrow: "Contact",
       title: "Let's work together",
       subtitle:
-        "If you want to talk about a project, an opportunity, or simply exchange thoughts on communication, brands, finance or AI, drop me a line.",
+        "If you want to talk about a project, an opportunity, or simply exchange thoughts, drop me a line.",
       directLabel: "Direct contact",
       phoneLabel: "Phone",
       socialsLabel: "Connect here",

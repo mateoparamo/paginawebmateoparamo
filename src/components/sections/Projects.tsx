@@ -8,10 +8,10 @@ export function Projects({ locale }: { locale: Locale }) {
   const t = getDict(locale).projects;
 
   return (
-    <section id="projects" className="container-page scroll-mt-24 py-24 md:py-36">
-      <SectionHeading kicker={t.eyebrow} title={t.title} />
+    <section id="projects" className="container-page scroll-mt-24 py-20 md:py-28">
+      <SectionHeading>{t.eyebrow}</SectionHeading>
 
-      <div className="mt-14">
+      <div className="mt-10">
         {t.items.map((p, i) => (
           <Reveal key={p.title} delay={i * 0.08}>
             <article className="group grid gap-5 border-t border-line py-10 md:grid-cols-12 md:gap-8">
@@ -29,12 +29,9 @@ export function Projects({ locale }: { locale: Locale }) {
                 </p>
 
                 {p.showBrands && (
-                  <div className="mt-7">
-                    <span className="meta block">{t.brandsLabel}</span>
-                    <p className="mt-2 font-sans text-sm font-light text-ink-soft">
-                      {collaborations.map((c) => c.name).join("   ·   ")}
-                    </p>
-                  </div>
+                  <p className="mt-5 max-w-2xl font-sans text-xs font-light leading-relaxed text-ink-muted">
+                    {t.brandsLabel} — {collaborations.map((c) => c.name).join(" · ")}
+                  </p>
                 )}
 
                 {p.url && (
