@@ -49,9 +49,7 @@ export function Navbar({ locale }: NavbarProps) {
         <div className="flex items-center gap-5">
           <a
             href="/cv.pdf"
-            download="CV-Mateo-Paramo.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            download="CV Mateo Páramo.pdf"
             className="hidden font-sans text-[13px] font-medium text-ink transition-opacity hover:opacity-60 md:inline"
           >
             {t.cv}
@@ -98,9 +96,7 @@ export function Navbar({ locale }: NavbarProps) {
           ))}
           <a
             href="/cv.pdf"
-            download="CV-Mateo-Paramo.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            download="CV Mateo Páramo.pdf"
             className="py-2.5 font-sans text-sm font-medium text-ink"
           >
             {t.cv}
