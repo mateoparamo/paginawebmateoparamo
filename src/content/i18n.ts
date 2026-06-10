@@ -24,7 +24,7 @@ export const dict = {
       title: "Curioso, inquieto y autodidacta",
       body: [
         "Mi primera buena decisión profesional fue admitir que me había equivocado de carrera. Estudié Derecho en la UCM y descubrí que lo mío eran las finanzas, por lo que opté por hacer un MBA con especialización en finanzas en el IEB. Hoy en día, con el auge de la inteligencia artificial, se junta todo lo que me apasiona: IA y finanzas.",
-        "Tengo 29 años, soy de Madrid y llevo toda la vida detrás de un balón. Tras 2 años en Boston Scientific busco crecer como analista, aplicando la IA en las empresas y las finanzas. Siempre con ganas de aprender, mejorar y aportar.",
+        "Tengo 29 años y soy de Madrid y tras 2 años en Boston Scientific busco crecer como analista, aplicando la IA en las empresas y las finanzas. Siempre con ganas de aprender, mejorar y aportar.",
       ],
     },
     projects: {
@@ -170,7 +170,7 @@ export const dict = {
       title: "Curious, restless and self-taught",
       body: [
         "My first good career decision was admitting I'd picked the wrong degree. I studied Law at UCM and discovered finance was what really drew me in, so I chose to do an MBA specialising in finance at IEB. Today, with the rise of artificial intelligence, everything I'm passionate about comes together: AI and finance.",
-        "I'm 29, from Madrid, and I've spent my whole life chasing a football. After 2 years at Boston Scientific, I want to keep growing as an analyst, applying AI to business and finance. Always eager to learn, improve and add value.",
+        "I'm 29 and from Madrid, and after 2 years at Boston Scientific, I want to keep growing as an analyst, applying AI to business and finance. Always eager to learn, improve and add value.",
       ],
     },
     projects: {
