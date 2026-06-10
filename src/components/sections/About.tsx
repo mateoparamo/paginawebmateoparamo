@@ -23,7 +23,7 @@ export function About({ locale }: { locale: Locale }) {
           <dl className="space-y-4">
             {[
               [locale === "es" ? "Residencia" : "Based in", "Madrid"],
-              [locale === "es" ? "Enfoque" : "Focus", locale === "es" ? "Mercados × IA" : "Markets × AI"],
+              [locale === "es" ? "Enfoque" : "Focus", locale === "es" ? "Mercados financieros × IA" : "Financial markets × AI"],
               [locale === "es" ? "Idiomas" : "Languages", "ES · EN"],
             ].map(([k, v]) => (
               <div
