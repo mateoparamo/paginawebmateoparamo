@@ -110,25 +110,25 @@ export const dict = {
         {
           name: "Formación",
           items: [
-            "Derecho — UCM",
-            "MBA en Finanzas — IEB",
-            "Curso de Big Data e IA — ADAMS",
+            "Derecho · UCM",
+            "MBA en Finanzas · IEB",
+            "Curso de Big Data e IA · ADAMS",
           ],
         },
         {
           name: "Herramientas",
           items: [
             "Excel financiero avanzado",
-            "Reporting & P&L",
+            "Reporting Financiero",
             "PowerPoint ejecutivo",
-            "IA generativa (Claude Code)",
+            "IA (Claude Code, Gemini y ChatGPT)",
             "Análisis de datos",
             "Creación de contenido",
           ],
         },
         {
           name: "Idiomas",
-          items: ["Castellano — Nativo", "Inglés — Profesional"],
+          items: ["Castellano · Nativo", "Inglés · Profesional"],
         },
         {
           name: "Información adicional",
@@ -256,25 +256,25 @@ export const dict = {
         {
           name: "Education",
           items: [
-            "Law — UCM",
-            "MBA in Finance — IEB",
-            "Big Data & AI Course — ADAMS",
+            "Law · UCM",
+            "MBA in Finance · IEB",
+            "Big Data & AI Course · ADAMS",
           ],
         },
         {
           name: "Tools",
           items: [
             "Advanced financial Excel",
-            "Reporting & P&L",
+            "Financial Reporting",
             "Executive PowerPoint",
-            "Generative AI (Claude Code)",
+            "AI (Claude Code, Gemini and ChatGPT)",
             "Data analysis",
             "Content creation",
           ],
         },
         {
           name: "Languages",
-          items: ["Spanish — Native", "English — Professional"],
+          items: ["Spanish · Native", "English · Professional"],
         },
         {
           name: "Additional information",

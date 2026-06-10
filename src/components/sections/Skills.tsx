@@ -1,6 +1,20 @@
+import { Fragment } from "react";
 import type { Locale } from "@/content/i18n";
 import { getDict } from "@/content/i18n";
 import { Reveal } from "../Reveal";
+
+// El ampersand de Archivo (sans) queda feo; lo renderizamos en la serif
+// elegante (Newsreader italic) cuando aparece dentro de un texto.
+function withFancyAmpersand(text: string) {
+  return text.split("&").map((part, i, arr) => (
+    <Fragment key={i}>
+      {part}
+      {i < arr.length - 1 && (
+        <span className="font-serif italic">&amp;</span>
+      )}
+    </Fragment>
+  ));
+}
 
 export function Skills({ locale }: { locale: Locale }) {
   const t = getDict(locale).skills;
@@ -17,7 +31,7 @@ export function Skills({ locale }: { locale: Locale }) {
               <ul className="mt-5 space-y-2.5">
                 {group.items.map((item) => (
                   <li key={item} className="font-sans text-[15px] font-light text-ink-soft">
-                    {item}
+                    {withFancyAmpersand(item)}
                   </li>
                 ))}
               </ul>

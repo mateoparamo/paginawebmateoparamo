@@ -100,7 +100,7 @@ export function Experience({ locale }: { locale: Locale }) {
                 key={i}
                 className="flex flex-col gap-1 border-t border-line py-5 md:flex-row md:items-baseline md:justify-between md:gap-6"
               >
-                <div className="md:flex md:items-baseline md:gap-3">
+                <div className="flex flex-col gap-0.5 md:flex-row md:items-baseline md:gap-3">
                   <span className="font-serif text-base font-light text-ink">
                     {item.company}
                   </span>
