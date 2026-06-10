@@ -14,7 +14,7 @@ export const dict = {
     },
     hero: {
       eyebrow: "Mateo Páramo · Madrid",
-      title: "Finanzas, datos e IA aplicados a problemas reales",
+      title: "Finanzas · Mercados · Inteligencia artificial",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Hablemos",
       status: "Disponible para nuevos proyectos",
@@ -160,7 +160,7 @@ export const dict = {
     },
     hero: {
       eyebrow: "Mateo Páramo · Madrid",
-      title: "Finance, data & AI applied to real problems",
+      title: "Finance · Markets · Artificial Intelligence",
       ctaPrimary: "See projects",
       ctaSecondary: "Let's talk",
       status: "Available for new projects",

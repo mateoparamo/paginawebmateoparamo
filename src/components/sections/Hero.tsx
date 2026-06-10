@@ -20,10 +20,14 @@ export function Hero({ locale }: { locale: Locale }) {
             </span>
 
             <h1
-              className="display-xl mt-6 max-w-xl text-balance opacity-0 animate-fade-up md:max-w-2xl"
+              className="display-xl mt-6 max-w-xl opacity-0 animate-fade-up md:max-w-2xl"
               style={{ animationDelay: "0.12s" }}
             >
-              {t.title}
+              {t.title.split(/(?<=\.)\s+/).map((sentence, i) => (
+                <span key={i} className="block text-balance">
+                  {sentence}
+                </span>
+              ))}
             </h1>
 
             <div
