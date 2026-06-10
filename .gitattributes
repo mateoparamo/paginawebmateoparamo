@@ -1,0 +1,2 @@
+# Tratar PDFs como binarios: Git no intentará convertir saltos de línea.
+*.pdf binary
