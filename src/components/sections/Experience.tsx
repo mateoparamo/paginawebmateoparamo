@@ -74,26 +74,44 @@ export function Experience({ locale }: { locale: Locale }) {
         </article>
       </Reveal>
 
-      {/* Otra experiencia, menos destacada */}
+      {/* Otra experiencia, menos destacada — desplegable */}
       <Reveal delay={0.1}>
-        <p className="kicker mt-12 mb-2">{t.otherTitle}</p>
-        <ul>
-          {t.items.map((item, i) => (
-            <li
-              key={i}
-              className="flex flex-col gap-1 border-t border-line py-5 md:flex-row md:items-baseline md:justify-between md:gap-6"
+        <details className="exp-extra group mt-12">
+          <summary className="kicker flex cursor-pointer list-none items-center gap-2 transition-colors hover:text-ink-soft [&::-webkit-details-marker]:hidden">
+            <span>{t.otherTitle}</span>
+            <svg
+              aria-hidden
+              viewBox="0 0 12 12"
+              className="h-2 w-2 transition-transform duration-300 group-open:rotate-180"
             >
-              <div className="md:flex md:items-baseline md:gap-3">
-                <span className="font-serif text-base font-light text-ink">
-                  {item.company}
-                </span>
-                <span className="meta">{item.role}</span>
-              </div>
-              <span className="meta whitespace-nowrap">{item.dates}</span>
-            </li>
-          ))}
-          <li className="border-t border-line" />
-        </ul>
+              <path
+                d="M2 4l4 4 4-4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </summary>
+          <ul className="mt-3">
+            {t.items.map((item, i) => (
+              <li
+                key={i}
+                className="flex flex-col gap-1 border-t border-line py-5 md:flex-row md:items-baseline md:justify-between md:gap-6"
+              >
+                <div className="md:flex md:items-baseline md:gap-3">
+                  <span className="font-serif text-base font-light text-ink">
+                    {item.company}
+                  </span>
+                  <span className="meta">{item.role}</span>
+                </div>
+                <span className="meta whitespace-nowrap">{item.dates}</span>
+              </li>
+            ))}
+            <li className="border-t border-line" />
+          </ul>
+        </details>
       </Reveal>
     </section>
   );

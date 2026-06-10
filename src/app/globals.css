@@ -120,3 +120,19 @@ body::before {
 .text-balance {
   text-wrap: balance;
 }
+
+/* "Otra experiencia" cerrado: el hueco hasta la siguiente sección se reduce
+   y solo se abre a su tamaño completo cuando se despliega. Evita el pozo en
+   blanco bajo el desplegable cuando está cerrado. */
+#experience {
+  padding-bottom: 2.5rem;
+}
+#experience + #skills {
+  padding-top: 2.5rem;
+}
+#experience:has(.exp-extra[open]) {
+  padding-bottom: 7rem;
+}
+#experience:has(.exp-extra[open]) + #skills {
+  padding-top: 7rem;
+}

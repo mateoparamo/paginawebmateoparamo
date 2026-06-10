@@ -1,6 +1,6 @@
 import type { Locale } from "@/content/i18n";
 import { getDict } from "@/content/i18n";
-import { email, socials } from "@/content/socials";
+import { email } from "@/content/socials";
 import { Reveal } from "../Reveal";
 import { SectionHeading } from "../SectionHeading";
 
@@ -13,12 +13,12 @@ export function Contact({ locale }: { locale: Locale }) {
 
       <div className="mt-10 grid gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-8">
-          <h3 className="display-lg max-w-2xl text-balance">{t.title}</h3>
-          <p className="lead mt-8 max-w-xl text-balance">{t.subtitle}</p>
+          <h3 className="display-md max-w-2xl text-balance">{t.title}</h3>
+          <p className="body-text mt-6 max-w-xl text-balance">{t.subtitle}</p>
 
           <a
             href={`mailto:${email}`}
-            className="group mt-12 inline-flex items-baseline gap-3 font-serif text-2xl font-light text-ink md:text-3xl"
+            className="group mt-12 inline-flex items-baseline gap-3 font-serif text-xl font-light text-ink md:text-2xl"
           >
             <span className="border-b border-line-strong pb-1 transition-colors group-hover:border-ink">
               {email}
@@ -30,24 +30,6 @@ export function Contact({ locale }: { locale: Locale }) {
               →
             </span>
           </a>
-        </Reveal>
-
-        <Reveal delay={0.12} className="md:col-span-3 md:col-start-10">
-          <p className="kicker mb-5">{t.directLabel}</p>
-          <ul className="space-y-3">
-            {socials.map((s) => (
-              <li key={s.name}>
-                <a
-                  href={s.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-line"
-                >
-                  {s.name}
-                </a>
-              </li>
-            ))}
-          </ul>
         </Reveal>
       </div>
     </section>
