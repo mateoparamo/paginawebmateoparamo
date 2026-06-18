@@ -38,7 +38,7 @@ export const dict = {
           title: "Base de datos del Real Madrid",
           tag: "IA · Datos",
           description:
-            "Aplicación web de estadísticas y datos del Real Madrid. Diseñada, construida y publicada por mí con IA generativa como herramienta de desarrollo.",
+            "Aplicación web de estadísticas y datos del Real Madrid. Diseñada, construida y publicada por mí mediante 'vibe coding' con IA.",
           url: "https://data-base-real-madrid-stats.pages.dev/real-madrid-premium-v5?vmpyn9tsz",
           linkLabel: "Ver proyecto",
           image: "/projects/realmadrid.png",
@@ -184,7 +184,7 @@ export const dict = {
           title: "Real Madrid database",
           tag: "AI · Data",
           description:
-            "A Real Madrid stats and data web app. Designed, built and shipped by me using generative AI as a development tool.",
+            "A Real Madrid stats and data web app. Designed, built and shipped by me through 'vibe coding' with AI.",
           url: "https://data-base-real-madrid-stats.pages.dev/real-madrid-premium-v5?vmpyn9tsz",
           linkLabel: "View project",
           image: "/projects/realmadrid.png",
