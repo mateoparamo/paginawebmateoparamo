@@ -23,7 +23,7 @@ export const dict = {
       eyebrow: "Sobre mí",
       title: "Curioso, inquieto y autodidacta",
       body: [
-        "Mi primera buena decisión profesional fue admitir que me había equivocado de carrera. Estudié Derecho en la UCM y descubrí que lo mío eran las finanzas, por lo que opté por hacer un MBA con especialización en finanzas en el IEB. Hoy en día, con el auge de la inteligencia artificial, se junta todo lo que me apasiona: IA y finanzas.",
+        "Estudié Derecho en la UCM y opté por hacer un MBA con especialización en finanzas en el IEB. Hoy en día, con el auge de la inteligencia artificial, se junta todo lo que me apasiona: IA, derecho y finanzas.",
         "Tengo 29 años y soy de Madrid y tras 2 años en Boston Scientific busco crecer como analista, aplicando la IA en las empresas y las finanzas. Siempre con ganas de aprender, mejorar y aportar.",
       ],
     },
